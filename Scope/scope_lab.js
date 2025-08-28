@@ -27,6 +27,24 @@ const functionConst = "I'm a block-scoped const";
 }
 show();
 
-console.log(functionVar); // Throws ReferenceError
-console.log(functionLet); // Throws ReferenceError
-console.log(functionConst); // Throws ReferenceError
+// console.log(functionVar); // Throws ReferenceError
+// console.log(functionLet); // Throws ReferenceError
+// console.log(functionConst); // Throws ReferenceError
+
+{
+    let a = "alan"
+    const b = 5
+    var c = "christmas"
+
+    a = "kajara"
+    // b = 10
+    c = "passover"
+}
+
+a = "byabato"
+b = 
+c = "easter"
+
+console.log(a)
+console.log(b)
+console.log(c)
