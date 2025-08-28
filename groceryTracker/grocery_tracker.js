@@ -1,11 +1,12 @@
-let grocery-1;
-let grocery-2;
-let grocery-3;
+let grocery1;
+let grocery2;
+let grocery3;
 
-function calculateTotal() {  
-    grocery-1 = parseFloat(document.getElementById('grocery-1').value);
-    grocery-2 = parseFloat(document.getElementById('grocery-2').value);
-    grocery-3 = parseFloat(document.getElementById('grocery-3').value);
-    let total = grocery-1 + grocery-2 + grocery-3;
+function calculateTotal() { 
+    console.log('ala') 
+    grocery1 = parseFloat(document.getElementById('grocery1').value);
+    grocery2 = parseFloat(document.getElementById('grocery2').value);
+    grocery3 = parseFloat(document.getElementById('grocery3').value);
+    let total = grocery1 + grocery2 + grocery3;
     document.getElementById('result').innerText = `The total amount is: ${total}`;
 }
